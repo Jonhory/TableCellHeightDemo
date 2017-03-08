@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BDB880F2F0718ECACCE4308 /* libPods-TableCellHeightDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8201B13CE3DC80AD5E05A39 /* libPods-TableCellHeightDemo.a */; };
+		BB082D8C1E702BDA0056CC20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB082D8B1E702BDA0056CC20 /* main.m */; };
+		BB082D8F1E702BDA0056CC20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB082D8E1E702BDA0056CC20 /* AppDelegate.m */; };
+		BB082D921E702BDA0056CC20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB082D911E702BDA0056CC20 /* ViewController.m */; };
+		BB082D951E702BDA0056CC20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB082D931E702BDA0056CC20 /* Main.storyboard */; };
+		BB082D971E702BDA0056CC20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB082D961E702BDA0056CC20 /* Assets.xcassets */; };
+		BB082D9A1E702BDA0056CC20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB082D981E702BDA0056CC20 /* LaunchScreen.storyboard */; };
+		BB082DA31E702C470056CC20 /* AutoTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB082DA21E702C470056CC20 /* AutoTableVC.m */; };
+		BB082DA61E702E6E0056CC20 /* AutoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB082DA51E702E6E0056CC20 /* AutoModel.m */; };
+		BB082DAA1E7030210056CC20 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB082DA91E7030210056CC20 /* 2.png */; };
+		BB082DAC1E7030270056CC20 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB082DAB1E7030270056CC20 /* 1.png */; };
+		BB082DAE1E70302A0056CC20 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = BB082DAD1E70302A0056CC20 /* 0.png */; };
+		BB082DB11E70322A0056CC20 /* AutoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB082DB01E70322A0056CC20 /* AutoCell.m */; };
+		BB082DB41E703E010056CC20 /* AutoMixtureTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB082DB31E703E010056CC20 /* AutoMixtureTableVC.m */; };
+		BB082DB71E703F260056CC20 /* MixtureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB082DB61E703F260056CC20 /* MixtureCell.m */; };
+		BB082DBA1E7047980056CC20 /* MixtureCollecionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB082DB91E7047980056CC20 /* MixtureCollecionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8201B13CE3DC80AD5E05A39 /* libPods-TableCellHeightDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableCellHeightDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB082D871E702BDA0056CC20 /* TableCellHeightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableCellHeightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB082D8B1E702BDA0056CC20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB082D8D1E702BDA0056CC20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB082D8E1E702BDA0056CC20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB082D901E702BDA0056CC20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB082D911E702BDA0056CC20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB082D941E702BDA0056CC20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB082D961E702BDA0056CC20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB082D991E702BDA0056CC20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB082D9B1E702BDA0056CC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB082DA11E702C470056CC20 /* AutoTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoTableVC.h; sourceTree = "<group>"; };
+		BB082DA21E702C470056CC20 /* AutoTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoTableVC.m; sourceTree = "<group>"; };
+		BB082DA41E702E6E0056CC20 /* AutoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoModel.h; sourceTree = "<group>"; };
+		BB082DA51E702E6E0056CC20 /* AutoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoModel.m; sourceTree = "<group>"; };
+		BB082DA91E7030210056CC20 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		BB082DAB1E7030270056CC20 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BB082DAD1E70302A0056CC20 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		BB082DAF1E70322A0056CC20 /* AutoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCell.h; sourceTree = "<group>"; };
+		BB082DB01E70322A0056CC20 /* AutoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCell.m; sourceTree = "<group>"; };
+		BB082DB21E703E010056CC20 /* AutoMixtureTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoMixtureTableVC.h; sourceTree = "<group>"; };
+		BB082DB31E703E010056CC20 /* AutoMixtureTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoMixtureTableVC.m; sourceTree = "<group>"; };
+		BB082DB51E703F260056CC20 /* MixtureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtureCell.h; sourceTree = "<group>"; };
+		BB082DB61E703F260056CC20 /* MixtureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtureCell.m; sourceTree = "<group>"; };
+		BB082DB81E7047970056CC20 /* MixtureCollecionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixtureCollecionViewCell.h; sourceTree = "<group>"; };
+		BB082DB91E7047980056CC20 /* MixtureCollecionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixtureCollecionViewCell.m; sourceTree = "<group>"; };
+		D666B847579B3B9BBDEC204A /* Pods-TableCellHeightDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableCellHeightDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableCellHeightDemo/Pods-TableCellHeightDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E1B74058E20D5F86966AFB68 /* Pods-TableCellHeightDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableCellHeightDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableCellHeightDemo/Pods-TableCellHeightDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB082D841E702BD90056CC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDB880F2F0718ECACCE4308 /* libPods-TableCellHeightDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D17C8FA1CC5AAAFD112064B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8201B13CE3DC80AD5E05A39 /* libPods-TableCellHeightDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABA2DCD31F11D10D2AE23B18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D666B847579B3B9BBDEC204A /* Pods-TableCellHeightDemo.debug.xcconfig */,
+				E1B74058E20D5F86966AFB68 /* Pods-TableCellHeightDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB082D7E1E702BD90056CC20 = {
+			isa = PBXGroup;
+			children = (
+				BB082D891E702BDA0056CC20 /* TableCellHeightDemo */,
+				BB082D881E702BDA0056CC20 /* Products */,
+				ABA2DCD31F11D10D2AE23B18 /* Pods */,
+				2D17C8FA1CC5AAAFD112064B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB082D881E702BDA0056CC20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB082D871E702BDA0056CC20 /* TableCellHeightDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB082D891E702BDA0056CC20 /* TableCellHeightDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BB082DA91E7030210056CC20 /* 2.png */,
+				BB082DAB1E7030270056CC20 /* 1.png */,
+				BB082DAD1E70302A0056CC20 /* 0.png */,
+				BB082D8D1E702BDA0056CC20 /* AppDelegate.h */,
+				BB082D8E1E702BDA0056CC20 /* AppDelegate.m */,
+				BB082D901E702BDA0056CC20 /* ViewController.h */,
+				BB082D911E702BDA0056CC20 /* ViewController.m */,
+				BB082DB21E703E010056CC20 /* AutoMixtureTableVC.h */,
+				BB082DB31E703E010056CC20 /* AutoMixtureTableVC.m */,
+				BB082DB51E703F260056CC20 /* MixtureCell.h */,
+				BB082DB61E703F260056CC20 /* MixtureCell.m */,
+				BB082DB81E7047970056CC20 /* MixtureCollecionViewCell.h */,
+				BB082DB91E7047980056CC20 /* MixtureCollecionViewCell.m */,
+				BB082DA11E702C470056CC20 /* AutoTableVC.h */,
+				BB082DA21E702C470056CC20 /* AutoTableVC.m */,
+				BB082DAF1E70322A0056CC20 /* AutoCell.h */,
+				BB082DB01E70322A0056CC20 /* AutoCell.m */,
+				BB082DA41E702E6E0056CC20 /* AutoModel.h */,
+				BB082DA51E702E6E0056CC20 /* AutoModel.m */,
+				BB082D931E702BDA0056CC20 /* Main.storyboard */,
+				BB082D961E702BDA0056CC20 /* Assets.xcassets */,
+				BB082D981E702BDA0056CC20 /* LaunchScreen.storyboard */,
+				BB082D9B1E702BDA0056CC20 /* Info.plist */,
+				BB082D8A1E702BDA0056CC20 /* Supporting Files */,
+			);
+			path = TableCellHeightDemo;
+			sourceTree = "<group>";
+		};
+		BB082D8A1E702BDA0056CC20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB082D8B1E702BDA0056CC20 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB082D861E702BD90056CC20 /* TableCellHeightDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB082D9E1E702BDA0056CC20 /* Build configuration list for PBXNativeTarget "TableCellHeightDemo" */;
+			buildPhases = (
+				38F79765D0DEA48E3E0CAF8F /* [CP] Check Pods Manifest.lock */,
+				BB082D831E702BD90056CC20 /* Sources */,
+				BB082D841E702BD90056CC20 /* Frameworks */,
+				BB082D851E702BD90056CC20 /* Resources */,
+				0274735FCA4BDA327A814307 /* [CP] Embed Pods Frameworks */,
+				8A52A871A3E1BFDDEDA88F7F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableCellHeightDemo;
+			productName = TableCellHeightDemo;
+			productReference = BB082D871E702BDA0056CC20 /* TableCellHeightDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB082D7F1E702BD90056CC20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.wujh;
+				TargetAttributes = {
+					BB082D861E702BD90056CC20 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BB082D821E702BD90056CC20 /* Build configuration list for PBXProject "TableCellHeightDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB082D7E1E702BD90056CC20;
+			productRefGroup = BB082D881E702BDA0056CC20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB082D861E702BD90056CC20 /* TableCellHeightDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB082D851E702BD90056CC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB082DAC1E7030270056CC20 /* 1.png in Resources */,
+				BB082D9A1E702BDA0056CC20 /* LaunchScreen.storyboard in Resources */,
+				BB082D971E702BDA0056CC20 /* Assets.xcassets in Resources */,
+				BB082DAE1E70302A0056CC20 /* 0.png in Resources */,
+				BB082D951E702BDA0056CC20 /* Main.storyboard in Resources */,
+				BB082DAA1E7030210056CC20 /* 2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0274735FCA4BDA327A814307 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableCellHeightDemo/Pods-TableCellHeightDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38F79765D0DEA48E3E0CAF8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A52A871A3E1BFDDEDA88F7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableCellHeightDemo/Pods-TableCellHeightDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB082D831E702BD90056CC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB082DBA1E7047980056CC20 /* MixtureCollecionViewCell.m in Sources */,
+				BB082D921E702BDA0056CC20 /* ViewController.m in Sources */,
+				BB082DB41E703E010056CC20 /* AutoMixtureTableVC.m in Sources */,
+				BB082D8F1E702BDA0056CC20 /* AppDelegate.m in Sources */,
+				BB082DA31E702C470056CC20 /* AutoTableVC.m in Sources */,
+				BB082DA61E702E6E0056CC20 /* AutoModel.m in Sources */,
+				BB082DB11E70322A0056CC20 /* AutoCell.m in Sources */,
+				BB082DB71E703F260056CC20 /* MixtureCell.m in Sources */,
+				BB082D8C1E702BDA0056CC20 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB082D931E702BDA0056CC20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB082D941E702BDA0056CC20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB082D981E702BDA0056CC20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB082D991E702BDA0056CC20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB082D9C1E702BDA0056CC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB082D9D1E702BDA0056CC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB082D9F1E702BDA0056CC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D666B847579B3B9BBDEC204A /* Pods-TableCellHeightDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableCellHeightDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonhory.TableCellHeightDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB082DA01E702BDA0056CC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B74058E20D5F86966AFB68 /* Pods-TableCellHeightDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableCellHeightDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonhory.TableCellHeightDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB082D821E702BD90056CC20 /* Build configuration list for PBXProject "TableCellHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB082D9C1E702BDA0056CC20 /* Debug */,
+				BB082D9D1E702BDA0056CC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB082D9E1E702BDA0056CC20 /* Build configuration list for PBXNativeTarget "TableCellHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB082D9F1E702BDA0056CC20 /* Debug */,
+				BB082DA01E702BDA0056CC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB082D7F1E702BD90056CC20 /* Project object */;
+}
